@@ -12,6 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "TiktokenSwift",
+            type: .static,
             targets: ["TiktokenSwift"]),
     ],
     targets: [
