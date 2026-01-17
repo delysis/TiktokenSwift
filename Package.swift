@@ -23,7 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TiktokenFFI",
-            path: "Sources/TiktokenFFI/TiktokenFFI.xcframework"
+            url: "https://github.com/delysis/TiktokenSwift/releases/download/1.0.2/TiktokenFFI.xcframework.zip",
+            checksum: "4b938538d05da81e4c5ed1bef7c10fd09dd635ffd45f46475675c364a245bbbe"
         ),
         .testTarget(
             name: "TiktokenSwiftTests",

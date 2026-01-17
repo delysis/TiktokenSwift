@@ -1,4 +1,0 @@
-framework module TiktokenFFI {
-    header "TiktokenFFI.h"
-    export *
-}
